@@ -24,6 +24,9 @@ pub mod elastic_search;
 #[cfg(feature = "elasticmq")]
 #[cfg_attr(docsrs, doc(cfg(feature = "elasticmq")))]
 pub mod elasticmq;
+#[cfg(feature = "etcd")]
+#[cfg_attr(docsrs, doc(cfg(feature = "etcd")))]
+pub mod etcd;
 #[cfg(feature = "google_cloud_sdk_emulators")]
 #[cfg_attr(docsrs, doc(cfg(feature = "google_cloud_sdk_emulators")))]
 pub mod google_cloud_sdk_emulators;
